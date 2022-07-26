@@ -23,8 +23,6 @@ def print_color_code():
           print(pair_info)
           k=k+1
 
-
-
 if __name__ == '__main__':
   print('Color Code Manual:')
   print_color_code()

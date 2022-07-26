@@ -17,7 +17,6 @@ def get_color_from_pair_number(pair_number):
     raise Exception('Minor index out of range')
   return MAJOR_COLORS[major_index], MINOR_COLORS[minor_index]
 
-
 def get_pair_number_from_color(major_color, minor_color):
   try:
     major_index = MAJOR_COLORS.index(major_color)
